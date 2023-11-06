@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Purdue Cultural Centers</title>
+	 <link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+</head>
+<body>
+	<nav class="black lighten-2">
+		<div class="fixed-nav-bar">
+			<a href="center.html" class="navbar-brand">Purdue Cultural Centers</a>
+			<ul id="navbar-right" class="right hide-on-med-and-down">
+				<li><a href="calendar.html">Calendar</a></li>
+				<li><a href=" ">Resources</a></li>
+				<li><a href="https://www.purdue.edu/aaarcc/index.php">Events</a></li>
+				<li><a href="https://www.purdue.edu/aaarcc/about/history.php">About</a></li>
+				<li><a href="https://www.purdue.edu/aaarcc/connect/contact-us.php">Contact</a></li>
+			</ul>
+			<a href="#" data-activates="sidebar" class="button-collapse right">
+				<i class="material-icons">Menu</i>
+			</a>
+		</div>
+	</nav>
+
+	<div class="col-sm-3 col-md-2 sidebar">
+			<ul class="nav nav-sidebar">
+
+   				<li><a href="">AAARCC</a> </li>
+   				<li><a href="">BCC</a></li>
+   				<li><a href="">AAARCC</a></li>
+   				<li><a href="">LCC</a></li>
+   				<li><a href="">LGBTQ</a></li>
+ 				</ul>
+   </div>
+
+    <div class="container split-container">
+        <img src="banner.jpeg" alt="Banner Image" class="responsive-img" style="height: 400px; padding-top: 30px;">
+        <div class="text-center">
+          <h4>Welcome to Purdue Cultural Centers</h3>
+          <h6>Learn more about the recent events held at our cultural center. If you are a student organization and 
+             would like to add and host events
+             at our center feel free to use the calendar tab.</h6>
+             <a href="calendar.html" class="btn btn-secondary" style="background-color: #CFB991;">Go to Calendar</a> 
+        </div>
+      </div>
+
+
+	<div class="mobile-header z-depth-1">
+		<div class="container">
+			<ul class="side-nav" id="mobile-nav">
+				<li><a href="calendar.html">Calendar</a></li>
+				<li><a href="https://www.purdue.edu/aaarcc/index.php">Events</a></li>
+				<li><a href="https://www.purdue.edu/aaarcc/about/history.php">About</a></li>
+				<li><a href="https://www.purdue.edu/aaarcc/connect/contact-us.php">Contact</a></li>
+			</ul>
+		</div>
+	</div>
+
+	<div class="main-wrapper container">
+		<!-- Your content goes here -->
+	</div>
+
+	<!-- Your existing JavaScript includes here -->
+	<script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>
+	<script>
+		// Initialize Materialize mobile navigation
+		$(".button-collapse").sideNav();
+	</script>
+</body>
+</html>
